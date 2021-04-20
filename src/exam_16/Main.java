@@ -1,7 +1,6 @@
 package exam_16;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
@@ -16,16 +15,16 @@ public class Main {
 		        	throw new Exception("Missing value");
 		        }else {
 		        	if (i>= 80) {
-		        		System.out.println("A");
+		        		System.out.println(i+"\tA");
 		        	}
 		        	else if(i>=70) {
-		        		System.out.println("B");
+		        		System.out.println(i+"\tB");
 		        	}
 		        	else if(i>=50) {
-		        		System.out.println("C");
+		        		System.out.println(i+"\tC");
 		        	}
 		        	else
-		        		System.out.println("D");
+		        		System.out.println(i+"\tD");
 		        	
 		        }
 		        	
